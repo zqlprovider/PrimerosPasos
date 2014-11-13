@@ -3,17 +3,13 @@ public class Declaraciones_Operadores {
 
 	public static void main(String[] args) {
 		
-		double a=5;
+		final double apulgadas=2.54;
 		
-		double b;
+		double cm=6;
 		
-		b=10;
+		double resultado=cm/apulgadas;
 		
-		double c=b/a;
-		
-		//c-=6;
-		
-		System.out.println(c);
+		System.out.println("En " + cm + " cm hay " + resultado + " pulgadas.");
 		
 	}
 
