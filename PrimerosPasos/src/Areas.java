@@ -44,6 +44,8 @@ public class Areas {
 			System.out.println("Opción incorrecta.");
 			break;
 		}
+		
+		entrada.close();
 
 	}
 
