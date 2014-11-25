@@ -16,6 +16,14 @@ public class UsoCoche {
 		micoche.configura_asientos("no");
 		
 		System.out.println(micoche.dime_asientos());
+		
+		micoche.configura_climatizador("si");
+		
+		System.out.println(micoche.dime_climatizador());
+		
+		System.out.println(micoche.dime_peso_coche());
+		
+		
 
 	}
 

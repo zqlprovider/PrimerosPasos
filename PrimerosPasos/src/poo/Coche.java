@@ -90,5 +90,20 @@ public class Coche {
 		return "El peso del coche es " + peso_total;
 		
 	}
+	
+	public int precio_coche() { //GETTER
+		int precio_final=10000;
+		
+		if(asientos_cuero){
+			precio_final+=2000;
+		}
+		
+		if(climatizador){
+			precio_final+=1500;
+		}
+		
+		return precio_final;
+		
+	}
 
 }
