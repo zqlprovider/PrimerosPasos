@@ -24,7 +24,8 @@ public class Coche {
 	public String dime_datos_generales(){ //GETTER
 		return "La plataforma del vehiculo tiene " + ruedas + " ruedas " +
 			". Mide " + largo/1000 + " metros con un ancho de " + ancho +
-			" cm y un peso de plataforma de " + peso_plataforma + " kg";
+			" cm y un peso de plataforma de " + peso_plataforma + " kg" +
+			" y un motor de " + motor + " de cilindrada";
 	}
 	
 	public void establece_color (String color_coche){ //SETTER
