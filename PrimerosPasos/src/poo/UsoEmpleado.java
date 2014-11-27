@@ -8,11 +8,11 @@ public class UsoEmpleado {
 		// TODO Auto-generated method stub
 		
 		/*
-		Empleado empleado1=new Empleado("Ezequiel Gallo", 7000, 2012, 12, 19);
+		Empleado empleado1=new Empleado("Paco", 7000, 2012, 12, 19);
 		
-		Empleado empleado2=new Empleado("Guadalupe Astrada", 5000, 2014, 11, 03);
+		Empleado empleado2=new Empleado("Ana", 5000, 2014, 11, 03);
 
-		Empleado empleado3=new Empleado("Juan Perez", 10000, 2002, 03, 15);
+		Empleado empleado3=new Empleado("Juan", 10000, 2002, 03, 15);
 		
 		empleado1.subeSueldo(5);
 		empleado2.subeSueldo(5);
@@ -28,9 +28,9 @@ public class UsoEmpleado {
 		
 		Empleado[] misEmpleados=new Empleado[3];
 		
-		misEmpleados[0]=new Empleado("Ezequiel Gallo", 7000, 2012, 12, 19);
-		misEmpleados[1]=new Empleado("Guadalupe Astrada", 5000, 2014, 11, 03);
-		misEmpleados[2]=new Empleado("Juan Perez", 10000, 2002, 01, 15);
+		misEmpleados[0]=new Empleado("Paco", 7000, 2012, 12, 19);
+		misEmpleados[1]=new Empleado("Ana", 5000, 2014, 11, 03);
+		misEmpleados[2]=new Empleado("Juan", 10000, 2002, 01, 15);
 		
 		/*for(int i=0;i<3;i++){
 			misEmpleados[i].subeSueldo(5);
