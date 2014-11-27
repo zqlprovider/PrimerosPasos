@@ -11,10 +11,12 @@ public class PruebaConstantes {
 		
 		trabajador1.cambiaSeccion("Sistemas");
 		
-		System.out.println(trabajador1.devuelveDatos());
-		System.out.println(trabajador2.devuelveDatos());
-		System.out.println(trabajador3.devuelveDatos());
-		System.out.println(trabajador4.devuelveDatos());
+		System.out.println(trabajador1.devuelveDatos() + "\n"+
+				trabajador2.devuelveDatos() + "\n"+
+				trabajador3.devuelveDatos() + "\n"+
+				trabajador4.devuelveDatos());
+		
+		System.out.println(Empleados.dameIdSiguiente());
 		
 	}
 
@@ -40,6 +42,11 @@ class Empleados{
 	public String devuelveDatos(){ //getter
 		return "El nombre es: "+nombre+", la sección es: "+seccion+
 				" y le Id="+Id;
+	}
+	
+	public static String dameIdSiguiente(){
+		
+		return "El Id Siguiente es: "+ IdSiguiente;
 	}
 	
 	private final String nombre;
