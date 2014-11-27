@@ -26,11 +26,12 @@ public class UsoEmpleado {
 				+ "  Fecha de Alta: " + empleado3.dameFechaAlta()); 
 		*/
 		
-		Empleado[] misEmpleados=new Empleado[3];
+		Empleado[] misEmpleados=new Empleado[4];
 		
 		misEmpleados[0]=new Empleado("Paco", 7000, 2012, 12, 19);
 		misEmpleados[1]=new Empleado("Ana", 5000, 2014, 11, 03);
 		misEmpleados[2]=new Empleado("Juan", 10000, 2002, 01, 15);
+		misEmpleados[3]=new Empleado("Pedro");
 		
 		/*for(int i=0;i<3;i++){
 			misEmpleados[i].subeSueldo(5);
@@ -55,7 +56,7 @@ public class UsoEmpleado {
 
 class Empleado{
 	
-	public Empleado(String nom, double sue, int anio, int mes, int dia){
+	public Empleado(String nom, double sue, int anio, int mes, int dia){ //Constructor todos los datos
 		
 		nombre=nom;
 		sueldo=sue;
@@ -65,6 +66,10 @@ class Empleado{
 		
 		altaContrato=calendario.getTime();
 		
+	}
+	
+	public Empleado(String nom){ //Constructor solo nombre
+		this(nom, 30000,2000,01,01);
 	}
 	
 	public String dameNombre(){ //getter
