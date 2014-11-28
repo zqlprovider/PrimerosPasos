@@ -97,16 +97,16 @@ class Empleado{
 
 class Jefatura extends Empleado{
 	
-	public Jefatura (String nom, double sue, int anio, int mes, int dia){
+	public Jefatura (String nom, double sue, int anio, int mes, int dia){ //constructor
 		super(nom, sue, anio, mes, dia);
 		
 	}
 	
-	public void estableceIncentivo(double b){
+	public void estableceIncentivo(double b){ //setter
 		incentivo=b;
 	}
 	
-	public double dameSueldo(){
+	public double dameSueldo(){ //getter
 		double sueldoJefe=super.dameSueldo();
 		return sueldoJefe+incentivo;
 	}
