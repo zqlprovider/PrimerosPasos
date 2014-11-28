@@ -39,6 +39,9 @@ public class UsoEmpleado {
 		misEmpleados[4]=jefe_RRHH; //Ejemplo Polimorfismo
 		misEmpleados[5]=new Jefatura("Marta", 40000,2010,5,01);
 		
+		Jefatura jefe_Finanzas=(Jefatura) misEmpleados[5];
+		jefe_Finanzas.estableceIncentivo(999);
+		
 		/*for(int i=0;i<3;i++){
 			misEmpleados[i].subeSueldo(5);
 		}*/
