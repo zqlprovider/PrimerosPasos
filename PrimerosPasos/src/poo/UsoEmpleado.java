@@ -26,12 +26,18 @@ public class UsoEmpleado {
 				+ "  Fecha de Alta: " + empleado3.dameFechaAlta()); 
 		*/
 		
-		Empleado[] misEmpleados=new Empleado[4];
+		Jefatura jefe_RRHH=new Jefatura("Javier", 30000,2014,10,01);
+		
+		jefe_RRHH.estableceIncentivo(2599);
+		
+		Empleado[] misEmpleados=new Empleado[6];
 		
 		misEmpleados[0]=new Empleado("Paco", 7000, 2012, 12, 19);
 		misEmpleados[1]=new Empleado("Ana", 5000, 2014, 11, 03);
 		misEmpleados[2]=new Empleado("Juan", 10000, 2002, 01, 15);
 		misEmpleados[3]=new Empleado("Pedro");
+		misEmpleados[4]=jefe_RRHH; //Ejemplo Polimorfismo
+		misEmpleados[5]=new Jefatura("Marta", 40000,2010,5,01);
 		
 		/*for(int i=0;i<3;i++){
 			misEmpleados[i].subeSueldo(5);
