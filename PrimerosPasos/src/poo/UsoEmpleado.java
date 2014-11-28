@@ -107,7 +107,7 @@ class Jefatura extends Empleado{
 	}
 	
 	public double dameSueldo(){
-		double sueldoJefe=dameSueldo();
+		double sueldoJefe=super.dameSueldo();
 		return sueldoJefe+incentivo;
 	}
 	
