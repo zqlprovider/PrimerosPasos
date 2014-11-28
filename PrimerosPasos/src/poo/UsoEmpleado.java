@@ -75,6 +75,9 @@ class Empleado{
 		
 		altaContrato=calendario.getTime();
 		
+		Id=IdSiguiente;
+		IdSiguiente++;
+		
 	}
 	
 	public Empleado(String nom){ //Constructor solo nombre
@@ -82,7 +85,7 @@ class Empleado{
 	}
 	
 	public String dameNombre(){ //getter
-		return nombre;
+		return nombre + " Id="+Id;
 	}
 	
 	public double dameSueldo(){ //getter
@@ -101,6 +104,8 @@ class Empleado{
 	private String nombre;
 	private double sueldo;
 	private Date altaContrato;
+	private int Id;
+	private static int IdSiguiente=1;
 	
 }
 
