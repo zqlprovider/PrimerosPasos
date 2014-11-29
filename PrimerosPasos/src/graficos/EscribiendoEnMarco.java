@@ -11,7 +11,6 @@ public class EscribiendoEnMarco {
 		
 		mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-
 	}
 
 }
