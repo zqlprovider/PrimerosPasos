@@ -15,7 +15,7 @@ public class ConexionDB {
         try
         {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            String url = "jdbc:sqlserver://192.168.0.254;databaseName=moscuzza;user=sa;password=Hola2631!;";
+            String url = "jdbc:sqlserver://192.168.0.254;databaseName=moscuzza;user=sa;password=Hola2631!;";            
             conexion= DriverManager.getConnection(url);
         }
         catch(ClassNotFoundException ex)
